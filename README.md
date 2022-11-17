@@ -53,6 +53,6 @@ Now we are all set to go. just upload the image of any given class and it will c
 
 ## Contact
 
-Linkedin - [Meet Desai](https://www.linkedin.com/in/meet-desai-235655208)
-Gmail - [desai.meet06gmail.com](desai.meet06@gmail.com)
+Linkedin - [Meet Desai](https://www.linkedin.com/in/meet-desai-235655208)  
+Gmail - [desai.meet06gmail.com](desai.meet06@gmail.com)  
 Project Link -  [github.com/Dmeet6401/drone_detection](https://github.com/Dmeet6401/drone_detection)
