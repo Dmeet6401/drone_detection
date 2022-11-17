@@ -46,10 +46,11 @@ Download and install [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/py
    ```sh
    streamlit run app.py
    ```
-Now we are all set to go. just upload the image of any given class and it will classify that image and also it gives other 5 possible classes from which image could belong to.
+Now we are all set to go. just upload the image of any given class and it will classify drone is in the image or not.
 
 [Download dataset from here](https://www.kaggle.com/datasets/sshikamaru/drone-yolo-detection)
 
+### **NOTE** : I given .txt file and data.data and data.names if you want to apply the YOLOV4 
 
 ## Contact
 
