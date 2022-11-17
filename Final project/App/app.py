@@ -13,15 +13,17 @@ import numpy as np
 available=[]
 st.header("DRONE DETECTION")
 file_upload = st.file_uploader("choose file ", type = ["jpg", "png","jpeg"])
+flag = False
 col1, col2= st.columns(2)
 CLASSES = ['Drone']
 with col1:
 
     
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path="..\\model\\drone_yolov5.pt")  # load scratch
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path="..\\..\\model\\drone_yolov5.pt")  # load scratch
     if file_upload is not None:
         img = Image.open(file_upload)
         result  = model(img)
+        flad = False
         st.image(np.squeeze(result.render()))
         # st.write(img.pandas().xyxy[0])
 
@@ -43,5 +45,6 @@ with col2:
     #     available.append(orange_count)
     # except Exception as e:
     #     available.append(0)
-    for index in range(len(CLASSES)):
-        st.write(f""" {CLASSES[index]} detected""")
+    if flag:
+        for index in range(len(CLASSES)):
+            st.write(f""" {available[index]} - {CLASSES[index]} is detected""")
