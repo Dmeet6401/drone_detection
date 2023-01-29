@@ -20,16 +20,16 @@ Download and install [Python 3.10.0](https://www.python.org/ftp/python/3.10.0/py
 
 2. Go to folder where you want to clone this repository and use below command to clone this repo to your local machine.
    ```sh
-   git clone https://github.com/ipiyushvaghela/TrafficSignClassification.git
+   git clone [https://github.com/Dmeet6401/drone_detection)
    ```
 3. Create virtual Environment 
    ```sh
-   python -m venv venvForTrafficSign --system-site-packages
+   python -m venv venvForDrone --system-site-packages
    ```
 
    To Activate our virtual environment we use 
    ```sh
-   venvForTrafficSign/Script/Activate.bat
+   venvForDrone/Script/Activate.bat
    ```
 4. Install packages using requirements.txt
    ```sh
